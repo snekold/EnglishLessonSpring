@@ -10,9 +10,9 @@ import org.springframework.web.bind.annotation.RequestParam;
 @Controller
 public class UserController {
 
-    @GetMapping("/menu")
+    @GetMapping("/")
     public String menu() {
-        return "menu";
+        return "index";
     }
 
     @GetMapping("/login")
